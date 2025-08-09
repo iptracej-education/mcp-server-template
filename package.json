@@ -1,0 +1,40 @@
+{
+  "name": "mcp-server-template",
+  "version": "1.0.0",
+  "description": "A template for creating MCP (Model Context Protocol) servers",
+  "main": "src/server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "NODE_ENV=development node src/server/index.js",
+    "test": "node --test tests/*.js",
+    "generate": "node src/generator/create.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "fs-extra": "^11.2.0",
+    "commander": "^11.0.0",
+    "inquirer": "^9.2.0",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "template",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mcp-server-template"
+  }
+}

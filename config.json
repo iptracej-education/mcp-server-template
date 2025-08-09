@@ -1,0 +1,13 @@
+{
+  "serverName": "mcp-template-server",
+  "version": "1.0.0",
+  "debug": false,
+  "dataDir": "./data",
+  "outputDir": "./output",
+  "maxFileSize": 10485760,
+  "timeout": 30000,
+  "tools": {
+    "enabled": true,
+    "customToolsDir": "./custom-tools"
+  }
+}
