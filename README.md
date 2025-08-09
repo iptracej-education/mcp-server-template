@@ -6,7 +6,7 @@ For details, check Anthroic mcp documentation [https://docs.anthropic.com/en/doc
 
 ## Features
 
-- [Stdio transport for Claude Desktop integration](https://modelcontextprotocol.io/docs/learn/architecture#transport-layer)
+- [Stdio transport implementation, including Claude Desktop integration](https://modelcontextprotocol.io/docs/learn/architecture#transport-layer)
 - Configurable tool system with built-in and custom tools
 - JSON-based configuration with environment variable overrides
 - Docker support for containerized deployment
