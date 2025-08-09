@@ -1,6 +1,6 @@
 # MCP Server Template
 
-A production-ready template for creating Model Context Protocol (MCP) servers that integrate with Claude Desktop and other MCP-compatible clients.
+A starter template for creating Model Context Protocol (MCP) servers that integrate with Claude Desktop and other MCP-compatible clients.
 
 ## Features
 
