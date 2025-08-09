@@ -2,9 +2,11 @@
 
 A starter template for creating Model Context Protocol (MCP) servers that integrate with Claude Desktop and other MCP-compatible clients.
 
+For details, check Anthroic mcp documentation [https://docs.anthropic.com/en/docs/mcp](https://docs.anthropic.com/en/docs/mcp)
+
 ## Features
 
-- Stdio transport for Claude Desktop integration
+- [Stdio transport for Claude Desktop integration](https://modelcontextprotocol.io/docs/learn/architecture#transport-layer)
 - Configurable tool system with built-in and custom tools
 - JSON-based configuration with environment variable overrides
 - Docker support for containerized deployment
